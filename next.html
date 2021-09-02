@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            font-family: Arial  ;
+        }
+        .container {
+            max-width: 1280px;
+            margin: 0 auto;
+        }
+        li{
+            display: inline;
+            justify-content: space-around;
+            
+        }
+        a{
+            margin-left: 5%;
+            color: black;
+            
+        }
+        .nav-cont li a{
+            padding: 1rem;
+        }
+        .active {
+            color: blueviolet;
+            font-weight: 100;
+        }
+        .nav-cont{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            padding: 2rem 0;
+        }
+        .nav-cont ul {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            align-items: center;
+        }
+       
+    </style>
+    
+</head>
+<body>
+    <!-- header -->
+    <header>
+        <div class="container">
+            <nav class="nav-cont">
+                <ul>
+                    <li ><a class="active" style="text-decoration: none;" href="/">About</a></li>
+                    <li><a style="text-decoration: none;" href="/">Help</a></li>
+                    <li><a style="text-decoration: none;" href="/">Feature</a></li>
+                    <li><a  style="text-decoration: none;" href="/">Signup</a></li>
+                </ul>
+                <button style="background-color: white; border-radius: 3em; color: gray; border: none;box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.151); padding: 1em;  " >Requset Demo <span style="color: blueviolet; padding: 5px; ">&#8594;</span></button>
+            </nav>
+        </div>
+    </header>
+
+    <!-- body -->
+    <section> 
+        <div class="container">
+            <div style="border: 1px solid #fce0f1;background-color: #fce0f1;border-radius: 2em;display: inline-block;width: 100%; display: flex; padding: 1.5rem ;">
+                <div class="about-image" style="width: 50%;" >
+                    <img src="./pink.png" alt="logo"  >
+                </div>
+                <div class="about-text" style="display: flex;
+                flex-direction: column; justify-content: center;width: 50%;">
+                    <h1>We are a high-level data storage bank</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vulputate justo odio, in vulputate orci dictum et. Maecenas quis est quis diam auctor convallis et ut felis. Nullam lacinia turpis orci, id tristique mi efficitur quis. Maecenas tincidunt sit amet justo eu vulputate. Etiam a viverra tortor. Aliquam vel viverra felis. In ac dolor vel neque porttitor facilisis rutrum at ex.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<button><a href="neog.html">next level</a></button>
+    
+
+</html>

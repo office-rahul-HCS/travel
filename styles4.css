@@ -1,0 +1,128 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    /* background-color: black; */
+}
+.container{
+    max-width:720px;
+    margin: 0 auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-image: url(./pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: cover ;
+    background-color: #e0e8ff;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    
+
+}
+#main{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50%;
+    margin-bottom: 50%;
+    max-width: 480px;
+    background-color: #fff;
+    border-radius: 1rem ;
+   
+
+    /* border: 1px solid #000; */
+
+}
+img{
+    /* 360*240 */
+    width: 480px;
+    height: 180px;
+    border-radius: 1rem 1rem 0rem 0rem;
+    background-color: #4169E1;
+}
+h2{
+    padding: 10px;
+    color: #4169E1;
+    font-size: bold;
+}
+p{
+    color: rgb(114, 111, 111);
+    font-weight: 600;
+    text-align: center;
+    max-width: 480px;
+    padding: 10px;
+    line-height: 25px;
+}
+
+.bill{
+    border: 1px solid #ffffff;
+    background-color: #e0e8ff;
+    display: flex;
+    width: 360px;
+    justify-content: space-around;
+    padding: 0px 10px 0px 10px;
+    border-radius: .5rem;
+    
+    align-items: center;
+
+
+}
+.bill img{
+    border-radius: 1.3rem;
+    background-color: #8194ce;
+    width: 32px;
+    height: 32px;
+    padding: 10px;
+    margin: 15px;
+}
+.price_deet{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: start;
+    
+}
+.price_deet p{
+    text-align: start;
+    padding: 0px;
+    
+}
+.price_deet small{
+    padding-top: 2px;
+    font-weight: 400;
+
+}
+
+#a_bill{
+    color: #0000ff;
+    font-weight: 600;
+    padding: 10px;
+}
+button{
+    margin-top: 20px;
+    border:1px solid #fff;
+    border-radius: .5rem;
+    width: 360px;
+    background-color: #0000ff;
+    padding: 20px;
+    color: #fff;
+    font-weight: 600;
+    font-size: 12pt;
+    margin-top: 50px;
+
+}
+#a_main{
+    color: #ccc;
+    font-weight: 600;
+    padding-top: 50px ;
+    padding-bottom: 20px;
+}
+#redirect{
+    border: 5px solid;
+    padding: 10px;
+    border-radius: 10px;
+    text-decoration: none;
+    margin-bottom: 10px;
+}
